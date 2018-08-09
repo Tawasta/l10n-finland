@@ -54,6 +54,13 @@ class TestBusinessIdValidate(TransactionCase):
         with self.assertRaises(ValidationError):
             self.partner_fi.business_id = business_id
 
+    def test_valid_finnish_registered_association(self):
+        # A valid registered association number
+        business_id = '123.456'
+
+        self.partner_fi.business_id = business_id
+        self.assertEqual(self.partner_fi.business_id, business_id)
+
     def test_invalid_swedish_business_id(self):
         # Only Finnish business ids have a validation so far,
         # so this shouldn't raise an error
