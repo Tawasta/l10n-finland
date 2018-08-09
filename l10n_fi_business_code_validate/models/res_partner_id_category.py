@@ -16,10 +16,6 @@ class ResPartnerIdCategory(models.Model):
 
     # Business id validator
     def validate_business_id(self, id_number):
-        if not id_number:
-            # Business id is not set. This is fine.
-            return True
-
         partner = id_number.partner_id
 
         if partner.country_id:
