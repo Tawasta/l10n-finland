@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Finland's provinces -->
+
+    <record id="state_fi_01" model="res.country.state">
+        <field name="code">01</field>
+        <field name="name">Uusimaa</field>
+        <field name="country_id" ref="base.fi"/>
+    </record>
+    <record id="state_fi_02" model="res.country.state">
+        <field name="code">02</field>
+        <field name="name">Varsinais-Suomi</field>
+        <field name="country_id" ref="base.fi"/>
+    </record>
+    <record id="state_fi_04" model="res.country.state">
+        <field name="code">04</field>
+        <field name="name">Satakunta</field>
+        <field name="country_id" ref="base.fi"/>
+    </record>
+    <record id="state_fi_05" model="res.country.state">
+        <field name="code">05</field>
+        <field name="name">Kanta-Häme</field>
+        <field name="country_id" ref="base.fi"/>
+    </record>
+    <record id="state_fi_06" model="res.country.state">
+        <field name="code">06</field>
+        <field name="name">Pirkanmaa</field>
+        <field name="country_id" ref="base.fi"/>
+    </record>
+    <record id="state_fi_07" model="res.country.state">
+        <field name="code">07</field>
+        <field name="name">Päijät-Häme</field>
+        <field name="country_id" ref="base.fi"/>
+    </record>
+    <record id="state_fi_08" model="res.country.state">
+        <field name="code">08</field>
+        <field name="name">Kymenlaakso</field>
+        <field name="country_id" ref="base.fi"/>
+    </record>
+    <record id="state_fi_09" model="res.country.state">
+        <field name="code">09</field>
+        <field name="name">Etelä-Karjala</field>
+        <field name="country_id" ref="base.fi"/>
+    </record>
+    <record id="state_fi_10" model="res.country.state">
+        <field name="code">10</field>
+        <field name="name">Etelä-Savo</field>
+        <field name="country_id" ref="base.fi"/>
+    </record>
+    <record id="state_fi_11" model="res.country.state">
+        <field name="code">11</field>
+        <field name="name">Pohjois-Savo</field>
+        <field name="country_id" ref="base.fi"/>
+    </record>
+    <record id="state_fi_12" model="res.country.state">
+        <field name="code">12</field>
+        <field name="name">Pohjois-Karjala</field>
+        <field name="country_id" ref="base.fi"/>
+    </record>
+    <record id="state_fi_13" model="res.country.state">
+        <field name="code">13</field>
+        <field name="name">Keski-Suomi</field>
+        <field name="country_id" ref="base.fi"/>
+    </record>
+    <record id="state_fi_14" model="res.country.state">
+        <field name="code">14</field>
+        <field name="name">Etelä-Pohjanmaa</field>
+        <field name="country_id" ref="base.fi"/>
+    </record>
+    <record id="state_fi_15" model="res.country.state">
+        <field name="code">15</field>
+        <field name="name">Pohjanmaa</field>
+        <field name="country_id" ref="base.fi"/>
+    </record>
+    <record id="state_fi_16" model="res.country.state">
+        <field name="code">16</field>
+        <field name="name">Keski-Pohjanmaa</field>
+        <field name="country_id" ref="base.fi"/>
+    </record>
+    <record id="state_fi_17" model="res.country.state">
+        <field name="code">17</field>
+        <field name="name">Pohjois-Pohjanmaa</field>
+        <field name="country_id" ref="base.fi"/>
+    </record>
+    <record id="state_fi_18" model="res.country.state">
+        <field name="code">18</field>
+        <field name="name">Kainuu</field>
+        <field name="country_id" ref="base.fi"/>
+    </record>
+    <record id="state_fi_19" model="res.country.state">
+        <field name="code">19</field>
+        <field name="name">Lappi</field>
+        <field name="country_id" ref="base.fi"/>
+    </record>
+    <record id="state_fi_21" model="res.country.state">
+        <field name="code">21</field>
+        <field name="name">Ahvenanmaa - Åland</field>
+        <field name="country_id" ref="base.fi"/>
+    </record>
+</odoo>
