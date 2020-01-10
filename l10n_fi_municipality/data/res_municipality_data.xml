@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Finland's municipality -->
+
+    <record id="municipality_fi_001" model="res.municipality">
+        <field name="code">001</field>
+        <field name="short_name">-</field>
+        <field name="name">Ahlainen</field>
+        <field name="description">-</field>
+    </record>
+    <record id="municipality_fi_002" model="res.municipality">
+        <field name="code">002</field>
+        <field name="short_name">-</field>
+        <field name="name">Ahlainen</field>
+        <field name="description">-</field>
+    </record>
+    <record id="municipality_fi_003" model="res.municipality">
+        <field name="code">003</field>
+        <field name="short_name">-</field>
+        <field name="name">Ahlainen</field>
+        <field name="description">-</field>
+    </record>
+    <record id="municipality_fi_004" model="res.municipality">
+        <field name="code">004</field>
+        <field name="short_name">-</field>
+        <field name="name">Ahlainen</field>
+        <field name="description">-</field>
+    </record>
+    <record id="municipality_fi_005" model="res.municipality">
+        <field name="code">005</field>
+        <field name="short_name">-</field>
+        <field name="name">Ahlainen</field>
+        <field name="description">-</field>
+    </record>
+    <record id="municipality_fi_006" model="res.municipality">
+        <field name="code">006</field>
+        <field name="short_name">-</field>
+        <field name="name">Ahlainen</field>
+        <field name="description">-</field>
+    </record>
+</odoo>
